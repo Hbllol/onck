@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+		    *{margin: 0;padding: 0;font-family: "叶根友毛笔行书2.0版";}
+			.box{
+				width: 100px;
+				height: 100px;
+				background: #666666;
+				position: absolute;
+				border-radius:10px;
+				text-align: center;
+				line-height: 100px;
+				font-size: 30px;
+				font-weight: bolder;
+				color: red;
+			}
+			.boxi{
+				width: 1000px;
+				height: 100px;
+				background: #2B2F3E;
+				position: relative;
+				text-align: center;
+				line-height: 100px;
+				font-size: 36px;
+				color: white;
+				border-radius: 10px;
+				
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="boxi">
+			<div class="box">
+			 解锁
+		    </div>
+		    滑动解锁
+		</div>
+		
+	</body>
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="jsjiesuo.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	$(".box").unlock();
+    </script>
+</html>
